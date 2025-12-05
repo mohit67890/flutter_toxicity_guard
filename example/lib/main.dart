@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:local_toxicity_guard/local_toxicity_guard.dart';
-import 'package:local_toxicity_guard/services/ToxicityGuard.dart';
+import 'package:local_toxicity_guard/services/toxicity_guard.dart';
 
 void main() {
   runApp(const MyApp());

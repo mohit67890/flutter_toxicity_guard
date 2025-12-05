@@ -1,16 +1,42 @@
-# local_toxicity_guard_example
+# local_toxicity_guard Example
 
-Demonstrates how to use the local_toxicity_guard plugin.
+A simple Flutter app demonstrating how to use the `local_toxicity_guard` plugin for on-device toxicity detection.
 
-## Getting Started
+## Features Demonstrated
 
-This project is a starting point for a Flutter application.
+- Basic text input field for user content
+- Real-time toxicity detection on button press
+- Display of toxicity results with category scores
 
-A few resources to get you started if this is your first Flutter project:
+## Running the Example
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Navigate to the example directory:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```bash
+   cd example
+   ```
+
+2. Get dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+3. Run the app:
+   ```bash
+   flutter run
+   ```
+
+## How It Works
+
+1. Enter text in the text field
+2. Tap the "Validate" button
+3. The app analyzes the text using the local toxicity detection model
+4. Results are printed to the console showing:
+   - Overall toxicity status
+   - Individual category scores
+   - Confidence levels
+
+## Learn More
+
+For detailed documentation and advanced usage, see the [main README](../README.md).

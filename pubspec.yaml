@@ -1,7 +1,9 @@
 name: local_toxicity_guard
-description: "A lightweight, privacy-focused AI package that detects hate speech, harassment, abusive language, and offensive content directly on the user’s device"
+description: Privacy-focused on-device toxicity detection for Flutter. Detects hate speech, harassment, and offensive content without cloud APIs.
 version: 1.0.1
 homepage: https://github.com/mohit67890/flutter_toxicity_guard
+repository: https://github.com/mohit67890/flutter_toxicity_guard
+issue_tracker: https://github.com/mohit67890/flutter_toxicity_guard/issues
 
 environment:
   sdk: ^3.7.2

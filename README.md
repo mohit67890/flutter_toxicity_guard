@@ -377,7 +377,7 @@ The plugin uses [flutter_onnxruntime](https://pub.dev/packages/flutter_onnxrunti
 - **Training Data:** Jigsaw Toxic Comment Classification Dataset
 - **Input:** Text sequences (max 512 tokens)
 - **Output:** 6 toxicity category probabilities
-- **Model Size:** ~45MB (ONNX format)
+- **Model Size:** ~22MB (ONNX format)
 - **Inference Time:** ~100-300ms on modern devices
 
 ## 📋 Requirements
@@ -408,7 +408,7 @@ flutter pub get
 
 ### Slow initialization
 
-The model loads ~45MB on first initialization. To improve perceived performance:
+The model loads ~22MB on first initialization. To improve perceived performance:
 
 ```dart
 void main() async {
