@@ -25,7 +25,7 @@ A lightweight, privacy-focused AI package that detects toxic content, hate speec
 ## 🎥 See It In Action
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mohit67890/flutter_toxicity_guard/refs/heads/main/media/demo.gif" alt="Toxicity Detection Demo" width="300"/>
+  <img src="https://raw.githubusercontent.com/mohit67890/flutter_toxicity_guard/refs/heads/main/media/demo.gif" alt="Toxicity Detection Demo" width="500"/>
 </p>
 
 _Real-time toxicity detection protecting user-generated content_
